@@ -1,0 +1,14 @@
+@import 'assets/styles/variables';
+
+.root {
+	textarea {
+		width: 100%;
+		resize: none;
+		overflow: hidden;
+		height: auto;
+
+		&::placeholder {
+			color: $text-dark;
+		}
+	}
+}

@@ -1,21 +1,54 @@
-import styles from './Spinner.module.scss'
+import { Component } from 'react'
+
 import SpinnerProps from './Spinner.interface'
 
-import { Icon24Spinner } from '@vkontakte/icons'
+import styles from './Spinner.module.scss'
 
-const Spinner: React.FC<SpinnerProps> = props => {
-	const { width, height, color, style } = props
+interface SpinnerState {
+	currentSymbol: string
+}
 
-	return (
-		<div className={styles.root} style={style}>
-			<Icon24Spinner
-				width={width}
-				height={height}
-				color={color ? color : '#929CAB'}
-				className={styles.wrapper}
-			/>
-		</div>
-	)
+class Spinner extends Component<SpinnerProps, SpinnerState> {
+	private interval: NodeJS.Timeout | null = null
+
+	constructor(props: SpinnerProps) {
+		super(props)
+		this.state = {
+			currentSymbol: '|',
+		}
+	}
+
+	componentDidMount() {
+		this.animateSpinner()
+	}
+
+	animateSpinner = () => {
+		const symbols = ['|', '/', '—', '\\']
+		let index = 0
+
+		const animationSpeed = 100
+
+		this.interval = setInterval(() => {
+			this.setState({ currentSymbol: symbols[index] })
+			index = (index + 1) % symbols.length
+		}, animationSpeed)
+	}
+
+	componentWillUnmount() {
+		if (this.interval) {
+			clearInterval(this.interval)
+		}
+	}
+
+	render() {
+		const { color, style } = this.props
+
+		return (
+			<div className={styles.root} style={{ color, ...style }}>
+				{this.state.currentSymbol}
+			</div>
+		)
+	}
 }
 
 export { Spinner }

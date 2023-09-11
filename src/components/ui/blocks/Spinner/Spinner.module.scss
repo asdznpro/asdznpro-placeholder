@@ -2,20 +2,7 @@
 
 .root {
 	width: max-content;
-
-	.wrapper {
-		animation: spinner;
-		animation-duration: 0.72s;
-		animation-iteration-count: infinite;
-		animation-timing-function: linear;
-	}
-}
-
-@keyframes spinner {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
+	user-select: none;
+	color: $text-dark;
+	font-weight: 300;
 }

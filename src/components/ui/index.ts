@@ -1,6 +1,9 @@
 // blocks
 
-// modals
+// forms
+
+export { Textarea } from './forms/Textarea'
+
 
 // navigation
 
