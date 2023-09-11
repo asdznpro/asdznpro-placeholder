@@ -1,0 +1,38 @@
+@import 'styles/variables';
+
+.root {
+	display: flex;
+	height: 96px;
+	min-height: 96px;
+}
+
+.wrapper {
+	@include ui-container;
+	@include ui-max-width;
+
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+
+	align-items: center;
+	gap: $ui-global-spacing * 3;
+
+	h6 {
+		color: $text-dark;
+		font-style: italic;
+	}
+}
+
+.logo {
+	h4 {
+		user-select: none;
+		font-style: italic;
+		text-transform: uppercase;
+		color: $text-primary;
+		white-space: nowrap;
+
+		span {
+			font-weight: 600;
+			color: $fuchsia;
+		}
+	}
+}

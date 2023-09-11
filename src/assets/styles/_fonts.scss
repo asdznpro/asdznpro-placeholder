@@ -1,0 +1,260 @@
+// JetBrains Mono
+
+$jetbrains-mono: 'JetBrains Mono';
+
+// regular
+
+@font-face {
+	font-family: $jetbrains-mono;
+	src: url('assets/fonts/jetbrains-mono/woff2/JetBrainsMono-Thin.woff2')
+			format('woff2'),
+		url('assets/fonts/jetbrains-mono/woff/JetBrainsMono-Thin.woff')
+			format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: $jetbrains-mono;
+	src: url('assets/fonts/jetbrains-mono/woff2/JetBrainsMono-ExtraLight.woff2')
+			format('woff2'),
+		url('assets/fonts/jetbrains-mono/woff/JetBrainsMono-ExtraLight.woff')
+			format('woff');
+	font-weight: 200;
+	font-style: normal;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: $jetbrains-mono;
+	src: url('assets/fonts/jetbrains-mono/woff2/JetBrainsMono-Light.woff2')
+			format('woff2'),
+		url('assets/fonts/jetbrains-mono/woff/JetBrainsMono-Light.woff')
+			format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: $jetbrains-mono;
+	src: url('assets/fonts/jetbrains-mono/woff2/JetBrainsMono-Regular.woff2')
+			format('woff2'),
+		url('assets/fonts/jetbrains-mono/woff/JetBrainsMono-Regular.woff')
+			format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: $jetbrains-mono;
+	src: url('assets/fonts/jetbrains-mono/woff2/JetBrainsMono-Medium.woff2')
+			format('woff2'),
+		url('assets/fonts/jetbrains-mono/woff/JetBrainsMono-Medium.woff')
+			format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: $jetbrains-mono;
+	src: url('assets/fonts/jetbrains-mono/woff2/JetBrainsMono-SemiBold.woff2')
+			format('woff2'),
+		url('assets/fonts/jetbrains-mono/woff/JetBrainsMono-SemiBold.woff')
+			format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: $jetbrains-mono;
+	src: url('assets/fonts/jetbrains-mono/woff2/JetBrainsMono-Bold.woff2')
+			format('woff2'),
+		url('assets/fonts/jetbrains-mono/woff/JetBrainsMono-Bold.woff')
+			format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: $jetbrains-mono;
+	src: url('assets/fonts/jetbrains-mono/woff2/JetBrainsMono-ExtraBold.woff2')
+			format('woff2'),
+		url('assets/fonts/jetbrains-mono/woff/JetBrainsMono-ExtraBold.woff')
+			format('woff');
+	font-weight: 800;
+	font-style: normal;
+	font-display: fallback;
+}
+
+// Italic
+
+@font-face {
+	font-family: $jetbrains-mono;
+	src: url('assets/fonts/jetbrains-mono/woff2/JetBrainsMono-ThinItalic.woff2')
+			format('woff2'),
+		url('assets/fonts/jetbrains-mono/woff/JetBrainsMono-ThinItalic.woff')
+			format('woff');
+	font-weight: 100;
+	font-style: italic;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: $jetbrains-mono;
+	src: url('assets/fonts/jetbrains-mono/woff2/JetBrainsMono-ExtraLightItalic.woff2')
+			format('woff2'),
+		url('assets/fonts/jetbrains-mono/woff/JetBrainsMono-ExtraLightItalic.woff')
+			format('woff');
+	font-weight: 200;
+	font-style: italic;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: $jetbrains-mono;
+	src: url('assets/fonts/jetbrains-mono/woff2/JetBrainsMono-LightItalic.woff2')
+			format('woff2'),
+		url('assets/fonts/jetbrains-mono/woff/JetBrainsMono-LightItalic.woff')
+			format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: $jetbrains-mono;
+	src: url('assets/fonts/jetbrains-mono/woff2/JetBrainsMono-Italic.woff2')
+			format('woff2'),
+		url('assets/fonts/jetbrains-mono/woff/JetBrainsMono-Italic.woff')
+			format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: $jetbrains-mono;
+	src: url('assets/fonts/jetbrains-mono/woff2/JetBrainsMono-MediumItalic.woff2')
+			format('woff2'),
+		url('assets/fonts/jetbrains-mono/woff/JetBrainsMono-MediumItalic.woff')
+			format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: $jetbrains-mono;
+	src: url('assets/fonts/jetbrains-mono/woff2/JetBrainsMono-SemiBoldItalic.woff2')
+			format('woff2'),
+		url('assets/fonts/jetbrains-mono/woff/JetBrainsMono-SemiBoldItalic.woff')
+			format('woff');
+	font-weight: 600;
+	font-style: italic;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: $jetbrains-mono;
+	src: url('assets/fonts/jetbrains-mono/woff2/JetBrainsMono-BoldItalic.woff2')
+			format('woff2'),
+		url('assets/fonts/jetbrains-mono/woff/JetBrainsMono-BoldItalic.woff')
+			format('woff');
+	font-weight: 700;
+	font-style: italic;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: $jetbrains-mono;
+	src: url('assets/fonts/jetbrains-mono/woff2/JetBrainsMono-ExtraBoldItalic.woff2')
+			format('woff2'),
+		url('assets/fonts/jetbrains-mono/woff/JetBrainsMono-ExtraBoldItalic.woff')
+			format('woff');
+	font-weight: 800;
+	font-style: italic;
+	font-display: fallback;
+}
+
+// heading
+
+@mixin ui-adaptive-heading($start-size, $vw, $end-size) {
+	font-size: clamp(#{$end-size}px, #{$vw}vw, #{$start-size}px);
+}
+
+@mixin ui-hyphens {
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+h1 {
+	font-family: $jetbrains-mono;
+
+	@include ui-adaptive-heading(60, 9.2, 32);
+	@include ui-hyphens;
+
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 1.25em;
+}
+
+h2 {
+	font-family: $jetbrains-mono;
+
+	@include ui-adaptive-heading(32, 7.2, 20);
+	@include ui-hyphens;
+
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+h3 {
+	font-family: $jetbrains-mono;
+
+	@include ui-adaptive-heading(24, 6, 16);
+
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.5em;
+}
+
+h4 {
+	font-family: $jetbrains-mono;
+
+	@include ui-adaptive-heading(20, 5, 8);
+
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.6em;
+}
+
+h5 {
+	font-family: $jetbrains-mono;
+
+	@include ui-adaptive-heading(16, 4.4, 8);
+
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.813em;
+}
+
+h6 {
+	font-family: $jetbrains-mono;
+
+	@include ui-adaptive-heading(14, 3.6, 8);
+
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.334em;
+}

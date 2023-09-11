@@ -1,0 +1,33 @@
+@import 'styles/variables';
+
+.root {
+	@include ui-display-column;
+
+	height: 100%;
+	padding: $ui-global-spacing;
+	gap: $ui-global-spacing;
+}
+
+.wrapper {
+	display: flex;
+	height: 100%;
+	background-color: $content;
+	overflow-y: hidden;
+
+	border-radius: $ui-rounded--32;
+}
+
+.main {
+	display: flex;
+	flex-direction: column-reverse;
+
+	width: 100%;
+	overflow-y: auto;
+}
+
+.spacing {
+	display: flex;
+	width: 100%;
+	height: 80px;
+	min-height: 80px;
+}

@@ -1,0 +1,13 @@
+@import 'styles/variables';
+
+.root {
+	@include ui-display-column;
+	@include ui-container;
+	@include ui-max-width;
+}
+
+.formInput {
+	display: flex;
+	gap: $ui-step * 1.5;
+	user-select: none;
+}

@@ -1,0 +1,95 @@
+// container
+
+@mixin ui-max-width {
+	max-width: calc($max-width--fullhd + ($ui-step * 8) * 2);
+}
+
+@mixin ui-container {
+	width: 100%;
+	padding: 0 $ui-step * 8;
+	margin: 0 auto;
+}
+
+// ———————————————————————————————————————————————— //
+
+// utilities
+
+@mixin ui-display-column {
+	display: flex;
+	flex-direction: column;
+}
+
+@mixin ui-display-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin ui-absolute-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@mixin ui-text-ellipsis($line-clamp: 1) {
+	overflow: hidden;
+
+	@if $line-clamp > 1 {
+		display: -webkit-box;
+		-webkit-line-clamp: $line-clamp;
+		-webkit-box-orient: vertical;
+	} @else if $line-clamp == 1 {
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+}
+
+@mixin ui-size-control(
+	$width: null,
+	$height: null,
+	$max-width: null,
+	$max-height: null,
+	$min-width: null,
+	$min-height: null
+) {
+	@if $width != null {
+		width: $width;
+	}
+
+	@if $height != null {
+		height: $height;
+	}
+
+	@if $max-width != null {
+		max-width: $max-width;
+	}
+
+	@if $max-height != null {
+		max-height: $max-height;
+	}
+
+	@if $min-width != null {
+		min-width: $min-width;
+	}
+
+	@if $min-height != null {
+		min-height: $min-height;
+	}
+}
+
+@mixin ui-visually-hidden {
+	border: 0 !important;
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	width: 1px !important;
+	height: 1px !important;
+	margin: -1px !important;
+	opacity: 0;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	white-space: nowrap !important;
+}
+
+// ———————————————————————————————————————————————— //

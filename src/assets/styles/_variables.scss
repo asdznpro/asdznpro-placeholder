@@ -1,0 +1,120 @@
+@import 'mixins';
+
+// ———————————————————————————————————————————————— //
+
+// global
+
+$ui-step: 4px;
+
+// ———————————————————————————————————————————————— //
+
+// dynamic
+
+$red: #ff3b3b;
+$yellow: #ffd400;
+$light-green: #aef865;
+$green: #3ce087;
+$blue: #00a0eb;
+$magenta: #ea00d9;
+$fuchsia: #ff2d97;
+
+// general-chromatic
+
+$black: #000;
+$text-dark: #929cab;
+$white: #fff;
+
+// general-chromatic
+
+$background: #111026;
+$content: #0e0d1b;
+
+$text-primary: #e4eeff;
+
+// ———————————————————————————————————————————————— //
+
+// alpha
+
+$alpha8: 8%;
+$alpha20: 20%;
+$alpha32: 32%;
+$alpha64: 64%;
+
+// alpha, 8%
+
+// $red--alpha8: rgba($red, $alpha8);
+// $yellow--alpha8: rgba($yellow, $alpha8);
+// $green--alpha8: rgba($green, $alpha8);
+// $blue--alpha8: rgba($dark-blue, $alpha8);
+// $violet--alpha8: rgba($violet, $alpha8);
+// $pink--alpha8: rgba($pink, $alpha8);
+
+// $gray--alpha8: rgba($gray, $alpha8);
+
+// alpha, 20%
+
+// $red--alpha20: rgba($red, $alpha20);
+// $yellow--alpha20: rgba($yellow, $alpha20);
+// $green--alpha20: rgba($green, $alpha20);
+// $blue--alpha20: rgba($dark-blue, $alpha20);
+// $violet--alpha20: rgba($violet, $alpha20);
+// $pink--alpha20: rgba($pink, $alpha20);
+
+// $gray--alpha20: rgba($gray, $alpha20);
+
+// alpha, 32%
+
+// $red--alpha32: rgba($red, $alpha32);
+// $yellow--alpha32: rgba($yellow, $alpha32);
+// $green--alpha32: rgba($green, $alpha32);
+// $blue--alpha32: rgba($dark-blue, $alpha32);
+// $violet--alpha32: rgba($violet, $alpha32);
+// $pink--alpha32: rgba($pink, $alpha32);
+
+// $gray--alpha32: rgba($gray, $alpha32);
+
+// ———————————————————————————————————————————————— //
+
+// border-radius
+
+$ui-rounded--6: $ui-step * 1.5;
+$ui-rounded--8: $ui-step * 2;
+$ui-rounded--12: $ui-step * 3;
+$ui-rounded--16: $ui-step * 4;
+$ui-rounded--20: $ui-step * 5;
+$ui-rounded--24: $ui-step * 6;
+$ui-rounded--32: $ui-step * 8;
+$ui-rounded--44: $ui-step * 11;
+$ui-rounded--56: $ui-step * 14;
+$ui-rounded--64: $ui-step * 16;
+
+// ———————————————————————————————————————————————— //
+
+// z-index
+
+$ui-index--1: 1; // for default elements
+$ui-index--2: 2; // for default elements
+$ui-index--4: 4; // for default elements
+$ui-index--8: 8; // for popouts
+$ui-index--12: 12; // for header
+$ui-index--16: 16; // for overlay
+$ui-index--20: 20; // for modals
+$ui-index--24: 24; // for emergencies
+
+// ———————————————————————————————————————————————— //
+
+// container
+
+$ui-global-spacing: $ui-step * 3;
+
+$max-width--fullhd: 1592px; // 1592px
+$max-width--desktop: 992px; // 992px
+$max-width--tablet: 768px; // 768px
+$max-width--mobile: 576px; // 576px
+$max-width--small-mobile: 320px; // 320px
+
+// ———————————————————————————————————————————————— //
+
+// media
+
+$mouse-device: '(hover: hover) and (pointer: fine)';

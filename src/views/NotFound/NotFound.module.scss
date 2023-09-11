@@ -1,0 +1,9 @@
+@import 'styles/variables';
+
+.root {
+	@include ui-display-column;
+}
+
+.wrapper {
+	@include ui-container;
+}

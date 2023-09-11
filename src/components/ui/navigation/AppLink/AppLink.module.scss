@@ -1,0 +1,18 @@
+@import 'assets/styles/variables';
+
+.root {
+	width: max-content;
+	font-weight: bold;
+	transition: 0.06s ease-in;
+	color: $blue;
+	text-decoration: underline $blue !important;
+	cursor: pointer;
+
+	&:hover {
+		color: lighten($blue, 6%);
+	}
+}
+
+.flex {
+	display: flex;
+}
